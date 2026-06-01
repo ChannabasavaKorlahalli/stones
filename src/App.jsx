@@ -4,7 +4,7 @@ import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
 import { ProductsPage } from './pages/ProductsPage';
 import { FacilitiesPage } from './pages/FacilitiesPage';
-import { ArtifactsPage } from './pages/ArtifactsPage';
+// Artifacts page removed
 import { ContactPage } from './pages/ContactPage';
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
         <Route path="about" element={<AboutPage />} />
         <Route path="products" element={<ProductsPage />} />
         <Route path="facilities" element={<FacilitiesPage />} />
-        <Route path="artifacts" element={<ArtifactsPage />} />
+        {/* Artifacts route removed */}
         <Route path="contact" element={<ContactPage />} />
       </Route>
     </Routes>

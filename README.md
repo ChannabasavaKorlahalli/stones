@@ -1,8 +1,8 @@
 # Vaali Stones Website
 
-Premium React + Vite site for **Vaali Stones** (Rokkamint International Pvt. Ltd.) — live at **https://stones.vaaliadvisory.com**
+Premium React + Vite site for **Vaali Stones** — live at **https://stones.vaaliadvisory.com**
 
-International granite, marble, sandstone, and limestone export from India to global stone markets.
+A curated portfolio and showcase of natural stone materials — granite, marble, sandstone, and limestone — presented for designers, architects, and suppliers.
 
 ## Stack
 
@@ -42,6 +42,4 @@ Set custom domain **stones.vaaliadvisory.com** in repository Pages settings (CNA
 
 ## Contact (site content)
 
-- **Phone:** +91 777 509 9911
-- **Email:** connect@rokkamint.in
-- **Office:** Block No. 37, 14th Cross, Vidyagiri, Bagalkot, Karnataka 587102, India
+- **Email:** info@vaalistones.com

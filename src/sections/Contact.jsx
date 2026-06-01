@@ -3,7 +3,7 @@ import { ArrowRight, Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
 import { Reveal } from '../components/ui/Reveal';
 import { CONTACT, PRODUCTS } from '../data/site';
 
-const stoneOptions = [...PRODUCTS.map((p) => p.name), 'Artifacts', 'Multiple / Other'];
+const stoneOptions = [...PRODUCTS.map((p) => p.name), 'Multiple / Other'];
 
 export function Contact({ embedded = false }) {
   const [submitted, setSubmitted] = useState(false);
