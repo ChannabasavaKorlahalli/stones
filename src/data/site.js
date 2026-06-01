@@ -1,15 +1,15 @@
 export const LOGO = '/logo.png';
 export const SITE_URL = 'https://stones.vaaliadvisory.com';
-export const COMPANY_NAME = 'Rokkamint International Pvt. Ltd.';
+export const COMPANY_NAME = 'Vaali Stones';
 export const BRAND_NAME = 'Vaali Stones';
-export const TAGLINE = 'From Indian Quarries to Global Stone Markets';
+export const TAGLINE = 'Curated natural stone materials for design and architecture';
 
 export const CONTACT = {
-  phone: '+91 777 509 9911',
-  phoneHref: 'tel:+917775099911',
-  email: 'connect@rokkamint.in',
-  whatsappHref: 'https://wa.me/917775099911',
-  address: 'Block No. 37, 14th Cross, Vidyagiri, Bagalkot, Karnataka 587102, India',
+  phone: '',
+  phoneHref: '',
+  email: 'info@vaalistones.com',
+  whatsappHref: '',
+  address: '',
 };
 
 export const HERO_METRICS = [
@@ -86,9 +86,9 @@ export const ARTIFACTS = [
 ];
 
 export const TIMELINE = [
-  { year: '2013', title: 'Founded in Bagalkot', text: 'Rokkamint International established in Karnataka, India — beginning our stone export journey.' },
-  { year: 'Growth', title: 'Global presence', text: 'Expanded granite, marble, sandstone, and limestone programs with recurring international clientele.' },
-  { year: 'Today', title: 'Premier export house', text: 'India\'s trusted partner for natural stone — from quarry to port with uncompromising quality.' },
+  { year: 'Now', title: 'Curated Collection', text: 'Showcasing a handpicked selection of natural stones chosen for quality and aesthetics.' },
+  { year: 'Today', title: 'Design Partnerships', text: 'Collaborating with designers and suppliers to support project-specific material needs.' },
+  { year: 'Ongoing', title: 'Quality Focus', text: 'Continual refinement of sourcing and finishing to meet project requirements.' },
 ];
 
 export const FACILITIES = [
@@ -119,16 +119,16 @@ export const FACILITIES = [
 ];
 
 export const ABOUT_PARAGRAPHS = [
-  'Rokkamint International Pvt. Ltd. stands as a prominent global supplier, manufacturer, exporter, and wholesaler of natural stones sourced from India. We specialize in granite, marble, sandstone, limestone, and a wide range of stone articles.',
-  'Our product range comprises granite slabs, tiles, and monuments — only a fraction of our full catalogue. Established in 2013 in Bagalkot, Karnataka, we have built a global presence through high quality standards and timely delivery that saves clients time and resources.',
-  'For our consistent services we maintain a recurring clientele base — accredited by buyers who value reliability, transparency, and export-grade execution.',
+  'Vaali Stones curates natural stone materials including granite, marble, sandstone, and limestone for design and architectural projects.',
+  'Our selection highlights quality, finish, and a variety of tones suitable for residential, commercial, and hospitality applications.',
+  'We work with design professionals and suppliers to support specification, finishing, and logistics for project delivery.',
 ];
 
 export const CEO_MESSAGE = {
   quote:
-    'I take pride in leading India\'s premier stone export brand, specializing in premium marble, granite, sandstone, and limestone. Our commitment to quality and beauty reflects in every piece we deliver. At Rokkamint, we don\'t just sell stones — we provide timeless elegance and natural beauty that elevate every project.',
-  name: 'Tejas Padasalagi',
-  title: 'CEO, Rokkamint Group',
+    'Our focus is on material quality, consistent finishing, and collaboration with design teams to deliver stone solutions that enhance spaces.',
+  name: 'Founder',
+  title: 'Founder',
 };
 
 export const QUALITY_POINTS = [
@@ -147,8 +147,8 @@ export const CSR_TEXT =
 
 export const TESTIMONIAL = {
   quote:
-    'Rokkamint International assures quality of the products and service they provide. Keep growing — all the best for your next visions.',
-  author: 'Teju R Arun',
+    'High-quality stone materials and professional service — a reliable partner for project sourcing.',
+  author: 'Satisfied Client',
 };
 
 export const REGIONS = [
@@ -177,7 +177,7 @@ export const FAQ = [
     a: 'Yes. We manage warehousing, export packaging, container loading, documentation, and coordination with your nominated freight forwarder or our logistics partners.',
   },
   {
-    q: 'Where is your head office?',
-    a: 'Our India head office is in Bagalkot, Karnataka. Contact us at +91 777 509 9911 or connect@rokkamint.in for quotations and project discussions.',
+    q: 'Where are you located?',
+    a: 'We operate from India and work with international partners; contact us at info@vaalistones.com for enquiries and project discussions.',
   },
 ];
