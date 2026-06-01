@@ -30,7 +30,7 @@ export function Nav() {
           <span className="logo-shell">
             <img
               src={LOGO}
-              alt={BRAND_NAME}
+              alt="Vaali Stones"
               width={167}
               height={161}
               className="logo-img"
