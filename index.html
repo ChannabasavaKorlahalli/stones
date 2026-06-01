@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        background: #05070f;
+        color: #f5f3ef;
+        font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+      }
+      #root {
+        min-height: 100vh;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="/logo.png" as="image" type="image/png" fetchpriority="high" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Sora:wght@600;700&display=swap"
+    />
+    <link rel="icon" href="/logo-og.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta
+      name="description"
+      content="Vaali Stones — India's premier granite and marble export house. Rokkamint International exports granite, marble, sandstone, limestone and stone articles worldwide."
+    />
+    <meta
+      name="keywords"
+      content="Granite Exporter India, Marble Exporter India, Sandstone Export, Limestone Export, Natural Stone Export, Indian Granite Slabs, Marble Tiles Export"
+    />
+    <meta name="author" content="Vaali Stones" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://stones.vaaliadvisory.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://stones.vaaliadvisory.com/" />
+    <meta property="og:title" content="Vaali Stones | Granite & Marble Export India" />
+    <meta
+      property="og:description"
+      content="International granite and marble export from India. Premium natural stone for global markets."
+    />
+    <meta property="og:image" content="https://stones.vaaliadvisory.com/logo-og.png" />
+    <meta property="og:site_name" content="Vaali Stones" />
+
+    <title>Vaali Stones | Granite, Marble & Natural Stone Export India</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Vaali Stones",
+        "legalName": "Rokkamint International Pvt. Ltd.",
+        "url": "https://stones.vaaliadvisory.com",
+        "logo": "https://stones.vaaliadvisory.com/logo-og.png",
+        "email": "connect@rokkamint.in",
+        "telephone": "+917775099911",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Block No. 37, 14th Cross, Vidyagiri",
+          "addressLocality": "Bagalkot",
+          "addressRegion": "Karnataka",
+          "postalCode": "587102",
+          "addressCountry": "IN"
+        },
+        "description": "International granite and marble export house from India to global stone markets."
+      }
+    </script>
+  </head>
+  <body>
+    <script>
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
+            .join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
