@@ -66,25 +66,6 @@ export const PRODUCTS = [
   },
 ];
 
-export const ARTIFACTS = [
-  {
-    title: 'Monuments & memorials',
-    text: 'Custom granite monuments with precision carving, polishing, and export-compliant packaging.',
-  },
-  {
-    title: 'Architectural stone articles',
-    text: 'Columns, balustrades, window sills, steps, and bespoke profiles for project-specific designs.',
-  },
-  {
-    title: 'Landscaping elements',
-    text: 'Pavers, kerb stones, garden features, and courtyard installations in natural stone finishes.',
-  },
-  {
-    title: 'Interior accents',
-    text: 'Table tops, vanity units, fireplace surrounds, and decorative inlays in marble and granite.',
-  },
-];
-
 export const TIMELINE = [
   { year: 'Now', title: 'Curated Collection', text: 'Showcasing a handpicked selection of natural stones chosen for quality and aesthetics.' },
   { year: 'Today', title: 'Design Partnerships', text: 'Collaborating with designers and suppliers to support project-specific material needs.' },
