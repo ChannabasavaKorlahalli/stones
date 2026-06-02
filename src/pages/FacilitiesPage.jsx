@@ -8,9 +8,9 @@ export function FacilitiesPage() {
       <section className="mx-auto max-w-7xl px-5 pb-8 lg:px-8 lg:pb-12">
         <Reveal>
           <p className="eyebrow">Company</p>
-          <h1 className="section-heading mt-4">Facilities & operations</h1>
+          <h1 className="section-heading mt-4">Behind every stone</h1>
           <p className="section-lead">
-            Manufacturing, delivery, packaging, and quality control — delivering excellence worldwide.
+            Processing equipment, quality verification systems, and logistics networks ensuring materials arrive as specified.
           </p>
         </Reveal>
       </section>

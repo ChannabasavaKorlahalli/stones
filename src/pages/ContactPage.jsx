@@ -9,7 +9,7 @@ export function ContactPage() {
       <section className="mx-auto max-w-7xl px-5 pb-4 lg:px-8">
         <Reveal>
           <p className="eyebrow">Contact</p>
-          <h1 className="section-heading mt-4">Connect with our export desk</h1>
+          <h1 className="section-heading mt-4">Start your material specification</h1>
         </Reveal>
       </section>
       <Contact />

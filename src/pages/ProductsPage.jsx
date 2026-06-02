@@ -11,10 +11,9 @@ export function ProductsPage() {
       <section className="mx-auto max-w-7xl px-5 pb-8 lg:px-8 lg:pb-12">
         <Reveal>
           <p className="eyebrow">Products</p>
-          <h1 className="section-heading mt-4">Timeless elegance and unmatched quality</h1>
+          <h1 className="section-heading mt-4">Stone selection for every vision</h1>
           <p className="section-lead">
-            Granite, marble, limestone, and sandstone — slabs, tiles, monuments, and cut-to-size for global
-            projects.
+            Four material categories with diverse finishes and characteristics — chosen and finished to your exact specifications and design requirements.
           </p>
         </Reveal>
       </section>
@@ -25,7 +24,7 @@ export function ProductsPage() {
             <Reveal>
               <h2 className="font-display text-2xl font-semibold text-cream lg:text-3xl">Granite varieties</h2>
               <p className="mt-3 max-w-2xl text-sm text-creamMuted">
-                Finest-grade granite from premier reserves in Telangana, Rajasthan, and Andhra Pradesh.
+                Each variety selected for color consistency, grain pattern, and durability ratings verified through testing.
               </p>
               <div className="mt-8 flex flex-wrap gap-2">
                 {granite.varieties.map((v) => (

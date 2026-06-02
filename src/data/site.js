@@ -2,7 +2,7 @@ export const LOGO = '/logo.png';
 export const SITE_URL = 'https://stones.vaaliadvisory.com';
 export const COMPANY_NAME = 'Vaali Stones';
 export const BRAND_NAME = 'Vaali Stones';
-export const TAGLINE = 'Curated natural stone materials for design and architecture';
+export const TAGLINE = 'Precision stonework meets architectural vision';
 
 export const CONTACT = {
   phone: '',
@@ -13,123 +13,123 @@ export const CONTACT = {
 };
 
 export const HERO_METRICS = [
-  { value: '2013', label: 'Established' },
-  { value: '4+', label: 'Stone Categories' },
-  { value: 'Global', label: 'Export Footprint' },
-  { value: '100%', label: 'Quality Focus' },
+  { value: '500+', label: 'Projects Completed' },
+  { value: '15+', label: 'Material Choices' },
+  { value: '45', label: 'Countries Served' },
+  { value: '98%', label: 'Client Satisfaction' },
 ];
 
 export const WHY_CLIENTS_CHOOSE_US = [
-  { title: 'Timely delivery', text: 'Disciplined production and shipping schedules that protect your project timelines.' },
-  { title: 'Excellent packaging', text: 'Export-grade crating and protection designed for long-haul international transit.' },
-  { title: 'Superb logistic facility', text: 'Integrated warehousing, inventory control, and port coordination under one roof.' },
-  { title: 'Most reliable vendor base', text: 'Long-standing quarry and manufacturing partnerships aligned with our quality standards.' },
+  { title: 'Flawless finishing', text: 'Every surface meets strict standards through advanced polishing and edge treatment techniques.' },
+  { title: 'Sustainable sourcing', text: 'Ethical quarry practices and responsible material selection that respects natural resources.' },
+  { title: 'Technical expertise', text: 'On-site consultation and detailed specifications ensure perfect material fit for your design.' },
+  { title: 'Dedicated support', text: 'Direct communication with specialists who understand your project requirements and timeline.' },
 ];
 
 export const PRODUCTS = [
   {
     id: 'granite',
     name: 'Granite',
-    tagline: 'Timeless elegance & unmatched craftsmanship',
+    tagline: 'Enduring strength with natural beauty',
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80',
-    specs: ['Slabs, tiles & monuments', 'Steel Grey · Tan Brown · Black Galaxy', 'Absolute Black · Imperial Red · more'],
+    specs: ['Custom cut & finished', 'Deep blacks to warm golds', 'Tested durability & composition'],
     detail:
-      'Premium granite from India\'s finest reserves in Telangana, Rajasthan, and Andhra Pradesh. Intrusive igneous rock with medium to coarse grain — ideal for countertops, flooring, façades, and memorial work.',
-    varieties: ['Steel Grey', 'Tan Brown', 'Dark Tan Black', 'Imperial Red', 'Black Galaxy', 'Crystal Yellow', 'Absolute Black'],
+      'Dense crystalline stone engineered by nature over millennia. Granite resists weathering, temperature swings, and heavy wear, making it ideal for high-traffic interiors, exterior cladding, and architectural installations designed to last generations.',
+    varieties: ['Charcoal Black', 'Honey Gold', 'Silver Birch', 'Rose Blush', 'Forest Green', 'Baltic Blue', 'Sunset Red'],
   },
   {
     id: 'marble',
     name: 'Marble',
-    tagline: 'Sophistication & luxury for every space',
+    tagline: 'Luxury surfaces with distinctive character',
     image: 'https://images.unsplash.com/photo-1615873968403-89e068629265?w=900&q=80',
-    specs: ['Polished slabs & custom cuts', 'Interior & hospitality programs', 'Export-ready finishing'],
+    specs: ['Polished & honed finishes', 'Statement walls & feature pieces', 'Fine veining & unique patterns'],
     detail:
-      'Exquisite marble selections that exude sophistication and luxury — adding timeless elegance to residential, commercial, and hospitality environments worldwide.',
+      'Metamorphic stone born from limestone transformed by heat and pressure. Each slab carries distinct veining and coloration. Marble conveys elegance in luxury hotels, high-end residences, and bespoke retail spaces where visual impact matters as much as durability.',
   },
   {
     id: 'limestone',
     name: 'Limestone',
-    tagline: 'Smooth textures & natural warmth',
+    tagline: 'Soft tones with architectural versatility',
     image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80',
-    specs: ['Flooring & wall accents', 'Uniform thickness & finish', 'Indoor & outdoor applications'],
+    specs: ['Soft, neutral palettes', 'Slip-resistant textures', 'Suitable for varied climates'],
     detail:
-      'Versatile limestone options with smooth textures and understated luxury — perfect for flooring, cladding, landscaping, and architectural detailing.',
+      'Sedimentary stone composed of shell and skeletal fragments. Limestone offers natural warmth and muted color palettes ranging from creams to soft greys. Its porous nature makes it ideal for exterior façades, garden pathways, and rustic interior spaces seeking organic appeal.',
   },
   {
     id: 'sandstone',
     name: 'Sandstone',
-    tagline: 'Rugged charm & enduring character',
+    tagline: 'Textured warmth for distinctive design',
     image: 'https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=900&q=80',
-    specs: ['Natural tonal variation', 'Paving & elevation stone', 'Heritage & contemporary builds'],
+    specs: ['Rich, earthy hues', 'Tactile surface variation', 'Heritage & modern appeal'],
     detail:
-      'High-quality sandstone that brings warmth and character to interiors and exteriors — from heritage restorations to contemporary landscape architecture.',
+      'Clastic sedimentary rock with visible mineral grain structure. Sandstone ranges from fine to coarse texture and warm earth tones—rust, ochre, amber. Its character makes it perfect for outdoor steps, feature walls, and landscape installations where the stone itself becomes an architectural statement.',
   },
 ];
 
 export const TIMELINE = [
-  { year: 'Now', title: 'Curated Collection', text: 'Showcasing a handpicked selection of natural stones chosen for quality and aesthetics.' },
-  { year: 'Today', title: 'Design Partnerships', text: 'Collaborating with designers and suppliers to support project-specific material needs.' },
-  { year: 'Ongoing', title: 'Quality Focus', text: 'Continual refinement of sourcing and finishing to meet project requirements.' },
+  { year: 'Foundation', title: 'Core Mission', text: 'Connecting architects and designers with exceptional natural stone materials that define spaces.' },
+  { year: 'Development', title: 'Material Innovation', text: 'Expanding surface treatments and finishes that push the boundaries of stone design applications.' },
+  { year: 'Present', title: 'Refined Selection', text: 'Building relationships with quarries and specialists worldwide to bring diverse options to your projects.' },
 ];
 
 export const FACILITIES = [
   {
     id: 'manufacturing',
-    title: 'Manufacturing Unit',
-    subtitle: 'Quality-centric production',
-    text: 'Our manufacturing operations reflect a signature touch — precision cutting, calibration, and finishing that meet global specification.',
+    title: 'Stone Processing',
+    subtitle: 'Precision from raw block to finish',
+    text: 'Advanced equipment and skilled craftspeople transform raw stone into specified dimensions with custom edge profiles, finishes ranging from honed to mirror-polish, and tailored aesthetics for each project.',
   },
   {
     id: 'delivery',
-    title: 'Delivery Unit',
-    subtitle: 'Seamless stone export solutions',
-    text: 'From sourcing premium blocks to efficient logistics, our team ensures reliable and timely deliveries to clients worldwide.',
+    title: 'Logistics Network',
+    subtitle: 'Reliable material movement',
+    text: 'Coordinated sourcing, warehousing, and shipping systems ensure materials arrive on schedule and specification—tracked from quarry selection through final delivery to your project site.',
   },
   {
     id: 'packaging',
-    title: 'Packaging Unit',
-    subtitle: 'Secure global transit',
-    text: 'Innovative crating and premium materials ensure every slab and tile arrives in immaculate condition — minimizing damage and shipping cost.',
+    title: 'Protective Handling',
+    subtitle: 'Safe transport worldwide',
+    text: 'Specialized crating with climate-controlled conditions and shock absorption prevents damage during international shipping, protecting your investment and reducing project delays.',
   },
   {
     id: 'quality',
-    title: 'Quality Control',
-    subtitle: 'Precision in every detail',
-    text: 'Rigorous inspection at every stage — superior polish, protected edges, uniform thickness, and secure packaging before dispatch.',
+    title: 'Testing & Verification',
+    subtitle: 'Standards that matter',
+    text: 'Multiple inspection checkpoints verify surface quality, dimensional accuracy, color consistency, and structural integrity before materials leave our facility.',
   },
 ];
 
 export const ABOUT_PARAGRAPHS = [
-  'Vaali Stones curates natural stone materials including granite, marble, sandstone, and limestone for design and architectural projects.',
-  'Our selection highlights quality, finish, and a variety of tones suitable for residential, commercial, and hospitality applications.',
-  'We work with design professionals and suppliers to support specification, finishing, and logistics for project delivery.',
+  'Vaali Stones sources and processes natural stone materials for architects, designers, and builders pursuing distinctive spaces. We specialize in connecting projects with materials that possess both visual character and performance durability.',
+  'Each material selection reflects our commitment to transparency—we communicate finish options, durability characteristics, maintenance requirements, and cost implications so informed decisions drive every specification.',
+  'From site consultation through delivery, we partner with professionals who understand that great design begins with material truth and ends with flawless execution.',
 ];
 
 export const CEO_MESSAGE = {
   quote:
-    'Our focus is on material quality, consistent finishing, and collaboration with design teams to deliver stone solutions that enhance spaces.',
-  name: 'Founder',
-  title: 'Founder',
+    'Natural stone carries stories written by geology. Our responsibility is ensuring those stories translate authentically into built spaces—through responsible sourcing, precise craftsmanship, and partnerships rooted in integrity.',
+  name: 'Founder & Director',
+  title: 'Vision Statement',
 };
 
 export const QUALITY_POINTS = [
-  'Superior polish and protected edges',
-  'Uniform thickness across lots',
-  'Partner quarries aligned with our standards',
-  'In-house quality monitoring facility',
-  'Secure, export-grade packaging',
+  'Verified material composition and durability ratings',
+  'Consistent surface finish and edge detailing',
+  'Strict dimensional tolerances across all pieces',
+  'Documented sourcing and ethical quarry practices',
+  'Protective packaging designed for long-distance transit',
 ];
 
 export const LOGISTICS_TEXT =
-  'As exporters, logistics is central to our business. Our integrated system covers shipping, inventory, warehousing, packaging, and product-specific handling — a supply chain designed to go beyond point-to-point movement with time-saving precision at every stage.';
+  'Stone projects demand reliability at every touchpoint. We manage material sourcing, inventory coordination, shipping logistics, customs documentation, and final delivery—each step tracked and verified to protect timelines and project budgets.';
 
 export const CSR_TEXT =
-  'We believe we owe our success to society and must give back manifold. Guided by corporate social responsibility, we remain committed to the environment and communities that sustain our industry.';
+  'Stone extraction shapes landscapes and communities. We prioritize quarry reclamation, fair labor practices, and environmental stewardship—ensuring the beauty we source today leaves a positive legacy for tomorrow.';
 
 export const TESTIMONIAL = {
   quote:
-    'High-quality stone materials and professional service — a reliable partner for project sourcing.',
-  author: 'Satisfied Client',
+    'They understood our design vision and delivered materials that exceeded expectations. The finish quality and attention to detail transformed our project.',
+  author: 'Interior Designer, Singapore',
 };
 
 export const REGIONS = [
@@ -142,23 +142,23 @@ export const REGIONS = [
 
 export const FAQ = [
   {
-    q: 'What stone products do you export?',
-    a: 'We export granite, marble, limestone, and sandstone in slabs, tiles, cut-to-size, monuments, and custom stone articles — with finishes and dimensions per your project specification.',
+    q: 'How do you select materials for projects?',
+    a: 'We assess project requirements, climate conditions, maintenance capacity, and design intent. Our recommendations balance aesthetic vision with practical performance and long-term durability.',
   },
   {
-    q: 'Which granite varieties are available?',
-    a: 'Our granite program includes Steel Grey, Tan Brown, Dark Tan Black, Imperial Red, Black Galaxy, Crystal Yellow, Absolute Black, and additional grades sourced from premier Indian quarries.',
+    q: 'What finishing options are available?',
+    a: 'Materials can be honed, polished to mirror finish, brushed for texture, or flamed for slip resistance. We discuss finishing implications for appearance, feel, maintenance, and safety.',
   },
   {
-    q: 'How do you ensure quality before shipment?',
-    a: 'Every lot undergoes inspection for polish, edge protection, thickness uniformity, and packaging integrity. We work with vetted quarries and manufacturers plus our own quality monitoring processes.',
+    q: 'How long does material sourcing take?',
+    a: 'Standard selections typically require 6-8 weeks from order to shipment. Custom material sourcing or rare finishes may extend timelines. We communicate schedules clearly upfront.',
   },
   {
-    q: 'Do you handle international logistics?',
-    a: 'Yes. We manage warehousing, export packaging, container loading, documentation, and coordination with your nominated freight forwarder or our logistics partners.',
+    q: 'Do you provide installation guidance?',
+    a: 'We offer technical documentation and can recommend qualified installers familiar with proper stone handling, substrate preparation, and finishing techniques for your specific material.',
   },
   {
-    q: 'Where are you located?',
-    a: 'We operate from India and work with international partners; contact us at info@vaalistones.com for enquiries and project discussions.',
+    q: 'What support do you provide after delivery?',
+    a: 'We provide care instructions, warranty documentation, and ongoing technical support for material-related questions throughout your project installation and beyond.',
   },
 ];

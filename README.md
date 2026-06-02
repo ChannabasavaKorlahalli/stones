@@ -1,8 +1,8 @@
 # Vaali Stones Website
 
-Premium React + Vite site for **Vaali Stones** — live at **https://stones.vaaliadvisory.com**
+Architectural stone sourcing platform for **Vaali Stones** — live at **https://stones.vaaliadvisory.com**
 
-A curated portfolio and showcase of natural stone materials — granite, marble, sandstone, and limestone — presented for designers, architects, and suppliers.
+Professional material selection and specifications interface connecting designers, architects, and builders with premium natural stone options including granite, marble, limestone, and sandstone.
 
 ## Stack
 

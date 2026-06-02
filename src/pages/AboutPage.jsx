@@ -9,10 +9,9 @@ export function AboutPage() {
       <section className="mx-auto max-w-7xl px-5 pb-8 lg:px-8 lg:pb-12">
         <Reveal>
           <p className="eyebrow">About</p>
-          <h1 className="section-heading mt-4">The prominent and global story</h1>
+          <h1 className="section-heading mt-4">Material knowledge meets design vision</h1>
           <p className="section-lead">
-            India&apos;s premier stone export brand — specializing in premium marble, granite, sandstone,
-            and limestone since 2013.
+            Understanding stone characteristics, processing capabilities, and design possibilities to support architects and designers in creating timeless spaces.
           </p>
         </Reveal>
       </section>
