@@ -42,4 +42,5 @@ Set custom domain **stones.vaaliadvisory.com** in repository Pages settings (CNA
 
 ## Contact (site content)
 
-- **Email:** info@vaalistones.com
+- **Phone:** +91 94485 25079
+- **Email:** exports@vaaliadvisory.com

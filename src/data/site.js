@@ -5,10 +5,10 @@ export const BRAND_NAME = 'Vaali Stones';
 export const TAGLINE = 'Precision stonework meets architectural vision';
 
 export const CONTACT = {
-  phone: '',
-  phoneHref: '',
-  email: 'info@vaalistones.com',
-  whatsappHref: '',
+  phone: '+91 94485 25079',
+  phoneHref: 'tel:+919448525079',
+  email: 'exports@vaaliadvisory.com',
+  whatsappHref: 'https://wa.me/919448525079',
   address: '',
 };
 
