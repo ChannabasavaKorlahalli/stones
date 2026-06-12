@@ -8,13 +8,27 @@ const stoneOptions = [...PRODUCTS.map((p) => p.name), 'Multiple / Other'];
 export function Contact({ embedded = false }) {
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const form = e.target;
     const data = new FormData(form);
-    const body = [...data.entries()].map(([k, v]) => `${k}: ${v}`).join('\n');
-    window.location.href = `mailto:${CONTACT.email}?subject=Stone%20Export%20Enquiry&body=${encodeURIComponent(body)}`;
-    setSubmitted(true);
+    try {
+      const res = await fetch('https://formspree.io/f/meewryva', {
+        method: 'POST',
+        body: data,
+        headers: { Accept: 'application/json' },
+      });
+      if (res.ok) {
+        setSubmitted(true);
+        form.reset();
+      } else {
+        console.error('Formspree response error', res.status);
+        alert('Failed to send enquiry. Please email us directly.');
+      }
+    } catch (err) {
+      console.error('Form submission error', err);
+      alert('Network error sending enquiry. Please email us directly.');
+    }
   };
 
   return (
@@ -103,7 +117,7 @@ export function Contact({ embedded = false }) {
                 Send enquiry <ArrowRight size={18} />
               </button>
               {submitted && (
-                <p className="mt-4 text-center text-sm text-gold">Opening your email client with enquiry details…</p>
+                <p className="mt-4 text-center text-sm text-gold">Thank you — your enquiry has been sent.</p>
               )}
             </form>
           </Reveal>
