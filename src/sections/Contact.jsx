@@ -1,35 +1,20 @@
-import { useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { ArrowRight, Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
 import { Reveal } from '../components/ui/Reveal';
 import { CONTACT, PRODUCTS } from '../data/site';
+import { useForm, ValidationError } from '@formspree/react';
 
 const stoneOptions = [...PRODUCTS.map((p) => p.name), 'Multiple / Other'];
 
 export function Contact({ embedded = false }) {
-  const [submitted, setSubmitted] = useState(false);
+  const formRef = useRef(null);
+  const [state, handleSubmit] = useForm('meewryva');
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const form = e.target;
-    const data = new FormData(form);
-    try {
-      const res = await fetch('https://formspree.io/f/meewryva', {
-        method: 'POST',
-        body: data,
-        headers: { Accept: 'application/json' },
-      });
-      if (res.ok) {
-        setSubmitted(true);
-        form.reset();
-      } else {
-        console.error('Formspree response error', res.status);
-        alert('Failed to send enquiry. Please email us directly.');
-      }
-    } catch (err) {
-      console.error('Form submission error', err);
-      alert('Network error sending enquiry. Please email us directly.');
+  useEffect(() => {
+    if (state.succeeded && formRef.current) {
+      formRef.current.reset();
     }
-  };
+  }, [state.succeeded]);
 
   return (
     <section id="contact" className={embedded ? 'pb-12 lg:pb-16' : 'border-t border-white/[0.06] py-24 lg:py-32'}>
@@ -69,7 +54,7 @@ export function Contact({ embedded = false }) {
           </Reveal>
 
           <Reveal>
-            <form onSubmit={handleSubmit} className="glass rounded-2xl p-6 lg:p-8">
+            <form ref={formRef} onSubmit={handleSubmit} className="glass rounded-2xl p-6 lg:p-8">
               <div className="grid gap-4 sm:grid-cols-2">
                 <label className="block">
                   <span className="mb-1.5 block text-xs text-creamMuted">Name</span>
@@ -107,16 +92,18 @@ export function Contact({ embedded = false }) {
                 <label className="block">
                   <span className="mb-1.5 block text-xs text-creamMuted">Email</span>
                   <input name="email" type="email" required className="input-field" autoComplete="email" />
+                  <ValidationError prefix="Email" field="email" errors={state.errors} />
                 </label>
                 <label className="block sm:col-span-2">
                   <span className="mb-1.5 block text-xs text-creamMuted">Message</span>
                   <textarea name="message" rows={4} className="input-field resize-none" placeholder="Finish, dimensions, Incoterms, target port..." />
+                  <ValidationError prefix="Message" field="message" errors={state.errors} />
                 </label>
               </div>
-              <button type="submit" className="btn-gold mt-6 w-full">
-                Send enquiry <ArrowRight size={18} />
+              <button type="submit" disabled={state.submitting} className="btn-gold mt-6 w-full">
+                {state.submitting ? 'Sending…' : 'Send enquiry'} <ArrowRight size={18} />
               </button>
-              {submitted && (
+              {state.succeeded && (
                 <p className="mt-4 text-center text-sm text-gold">Thank you — your enquiry has been sent.</p>
               )}
             </form>
